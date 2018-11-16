@@ -1,0 +1,86 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-family: "Exo 2";
+}
+
+header {
+	color: #ffc300;
+	width: 100%;
+	background-color: #3f3f3f;
+	height: 10%;
+	text-align: center;
+	border-bottom: 1px solid #fff;
+}
+
+header h1 {
+	padding-top: 1.5%;
+}
+
+nav {
+	height: 89%;
+	width: 8%;
+	background-color: #3f3f3f;
+	color: #ffc300;
+	float: left;
+}
+
+nav ul li {
+	margin-left: 15%
+}
+
+nav ul {
+	padding-top: 10%;
+	list-style: none;
+}
+
+nav ul a:visited {
+	color: #ffc300;
+}
+
+nav ul a:link {
+	text-decoration: none;
+	color: #ffc300;
+}
+
+
+
+@media (max-width:900px) {
+	nav {
+		width: 100px;
+	}
+}
+
+#mainContent {
+	
+}
+
+form input {
+	display: block;
+	margin: auto;
+	margin-top: 1%;
+	height: 50px;
+	width: 15%;
+	text-align: center;
+	font-family: "Exo 2";
+}
+
+form input[type=submit] {
+	cursor: pointer;
+}
+
+h3 {
+	text-align: center;
+	margin-top: 1%;
+}
+
+input {
+	text-align: left;
+}
+
+.center {
+	text-align: center;
+}
